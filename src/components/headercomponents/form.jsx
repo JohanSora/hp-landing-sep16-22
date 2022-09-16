@@ -66,7 +66,7 @@ const Formhp = () => {
           }}
         />
         <button type="submit" className="button-form">
-          Registrate aquí <div></div>
+          Enviar <div></div>
         </button>
       </form>
     </div>

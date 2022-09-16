@@ -40,7 +40,7 @@ const Main = () => {
                 <strong>adquisición de control.</strong>
               </li>
               <li>
-                Lograr mediciones <strong>más rápidas.</strong>
+                Lograr <strong>mediciones más rápidas.</strong>
               </li>
             </ul>
           </div>
