@@ -1,6 +1,6 @@
 import React from "react";
-import nubehp from "../assets/icono nube.png";
-import lugarhp from "../assets/icono lugar.png";
+import nubehp from "../assets/icono nube.webp";
+import lugarhp from "../assets/icono lugar.webp";
 
 const Main = () => {
   return (
@@ -40,7 +40,7 @@ const Main = () => {
                 <strong>adquisición de control.</strong>
               </li>
               <li>
-                Lograr <strong>mediciones más rápidas.</strong>
+                Lograr mediciones <strong>más rápidas.</strong>
               </li>
             </ul>
           </div>

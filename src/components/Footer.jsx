@@ -1,8 +1,8 @@
 import React from "react";
-import face from "../assets/SOCIAL NET/faceb.png";
-import twit from "../assets/SOCIAL NET/twit.png";
-import linke from "../assets/SOCIAL NET/linke.png";
-import yout from "../assets/SOCIAL NET/yout.png";
+import face from "../assets/SOCIAL NET/faceb.webp";
+import twit from "../assets/SOCIAL NET/twit.webp";
+import linke from "../assets/SOCIAL NET/linke.webp";
+import yout from "../assets/SOCIAL NET/yout.webp";
 
 const Footer = () => {
   return (
@@ -57,17 +57,33 @@ const Footer = () => {
           </small>
         </div>
         <div className="socialnet">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src={face} alt="hp_facebook" />
+          <a
+            href="https://www.facebook.com/HewlettPackardEnterprise/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img loading="lazy" src={face} alt="hp_facebook" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src={twit} alt="hp_twitter" />
+          <a
+            href="https://twitter.com/hpe"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img loading="lazy" src={twit} alt="hp_twitter" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src={linke} alt="hp_linkedin" />
+          <a
+            href="https://www.linkedin.com/company/hewlett-packard-enterprise"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img loading="lazy" src={linke} alt="hp_linkedin" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src={yout} alt="hp_youtube" />
+          <a
+            href="https://www.youtube.com/hpe"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img loading="lazy" src={yout} alt="hp_youtube" />
           </a>
         </div>
       </div>
