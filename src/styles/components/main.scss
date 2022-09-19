@@ -189,6 +189,11 @@ main {
       a {
         text-decoration: none;
       }
+      a:hover {
+        .button-greenlake {
+          background-color: #01a98294;
+        }
+      }
     }
   }
 

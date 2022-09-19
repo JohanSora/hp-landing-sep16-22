@@ -3,6 +3,9 @@ import nubehp from "../assets/icono nube.webp";
 import lugarhp from "../assets/icono lugar.webp";
 
 const Main = () => {
+  const scrolling = () => {
+    return window.scrollTo(0, 0);
+  };
   return (
     <main>
       <div className="container-info12">
@@ -63,12 +66,8 @@ const Main = () => {
             exclusiva obra privada que te cautivara.
           </p>
           <strong>Invitación valida para una persona.</strong>
-          <a
-            href="https://solucioneshpe.com/HPE_GreenLake/una-cena-como-en-casa/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="button-greenlake">
+          <a>
+            <button className="button-greenlake" onClick={scrolling}>
               <p>
                 <strong>Confirmar asistencia</strong>
               </p>
