@@ -66,14 +66,6 @@ const Main = () => {
             exclusiva obra privada que te cautivara.
           </p>
           <strong>Invitación valida para una persona.</strong>
-          <a>
-            <button className="button-greenlake" onClick={scrolling}>
-              <p>
-                <strong>Confirmar asistencia</strong>
-              </p>
-              <div></div>
-            </button>
-          </a>
           <a
             href="https://www.hpe.com/us/en/greenlake.html"
             target="_blank"
