@@ -11,6 +11,7 @@ function App() {
         headers: {
           "xh-client-id": "6672ff3aaef044ff9c11fc34651e6108",
           "xh-client-secret": "Ae63abFe0bC34bA7bF6e4A2Af8d61907",
+          "Access-Control-Allow-Origin": "*",
         },
       }
     )
